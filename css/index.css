@@ -269,9 +269,10 @@ footer {
 @media (max-width: 500px) {
   .walk .walk-text button {
     width: 100%;
-    padding: 0px;
+    padding: 1rem;
     padding-left: 0%;
     padding-right: 0%;
+    border-radius: 0.2rem;
   }
 }
 .walk .walk-img {

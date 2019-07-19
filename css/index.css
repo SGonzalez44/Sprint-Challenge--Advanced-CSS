@@ -161,9 +161,10 @@ p {
   margin: 0 auto;
 }
 .topBack {
-  background-color: cornsilk;
+  background-color: azure;
 }
 h1 {
+  padding-top: 2rem;
   text-align: center;
   font-size: 3.8rem;
 }
@@ -231,10 +232,12 @@ footer {
 }
 .home .walk .walk-text button {
   font-size: 2rem;
-  border-radius: 0.52rem;
+  border-radius: 1rem;
   background-color: black;
   color: white;
-  padding: 1rem;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .home .walk .walk-img {
   width: 46%;

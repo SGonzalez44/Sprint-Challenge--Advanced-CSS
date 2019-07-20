@@ -71,12 +71,15 @@
       p {
         margin-bottom: 26px;
       }
-
+    
       button {
         font-size: 2rem;
-        border-radius: 1rem;;
-        background-color: .buttonColor;
-        color: .buttonText;
+        border-radius: 1rem;
+        .back(black, white);
+        &:hover {
+          background-color:bisque;
+          color:brown;
+        }
         padding:5px;
         padding-left: 25px;
         padding-right: 25px;
@@ -85,7 +88,7 @@
           padding:1rem;
           padding-left: 0%;
           padding-right: 0%;
-          border-radius: .2rem;
+          border-radius: .5rem;
 
         }
       }
@@ -97,7 +100,7 @@
       @media (max-width:500px){
         width:100%;
         margin-left:0px;
-        margin: .onerem;
+        margin: 1rem;
       }
       img {
         width: 100%;
@@ -108,12 +111,12 @@
   }
   .sky{
   @media (max-width:500px){
-    display: .dissapear;
+    .dissapear;
     }
   }
   .launch{
     @media (max-width:500px){
-      display: .dissapear;
+      .dissapear;
     }
   }
   // home

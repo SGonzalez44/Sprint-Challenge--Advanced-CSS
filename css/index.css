@@ -1,3 +1,12 @@
+.bhead {
+  background-color: azure;
+}
+.background {
+  background-color: black;
+}
+.dissapear {
+  display: none;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -266,13 +275,17 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
 }
+.walk .walk-text button:hover {
+  background-color: bisque;
+  color: brown;
+}
 @media (max-width: 500px) {
   .walk .walk-text button {
     width: 100%;
     padding: 1rem;
     padding-left: 0%;
     padding-right: 0%;
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
   }
 }
 .walk .walk-img {
